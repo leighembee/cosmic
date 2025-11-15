@@ -150,3 +150,5 @@ yarn.lock
 bun.lockb
 deno.lock
 
+
+node_modules
