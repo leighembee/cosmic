@@ -152,3 +152,4 @@ deno.lock
 
 
 node_modules
+tina/__generated__
