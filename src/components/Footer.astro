@@ -10,15 +10,6 @@ const today = new Date();
 	<footer class="copyright-footer">
 		&copy; {today.getFullYear()}
 		{config.seo.siteOwner}. All rights reserved.
-		<div class="social-links">
-			{
-				config?.contactLinks?.map((link) => {
-					return (
-						<IconLink {...link} />
-					);
-				})
-			}
-		</div>
 	</footer>
 
 <style>
